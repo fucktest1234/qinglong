@@ -10,5 +10,6 @@ services:
       - ./data/repo:/ql/repo
       - ./data/raw:/ql/raw
     ports:
-      - "5700:5700"
+      - "80:5700"
+      - "5600:5600"
     restart: unless-stopped
