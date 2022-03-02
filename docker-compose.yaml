@@ -3,7 +3,7 @@ services:
   web:
     image: whyour/qinglong:latest
     volumes:
-      - ./data:/ql
+      - /home:/ql
     ports:
       - "80:5700"
       - "5600:5600"
